@@ -1,0 +1,57 @@
+#counter-display {
+  height: 3rem;
+  background: black;
+  margin: 2rem;
+  border-radius: 4%;
+}
+
+#counter-display > p {
+  font-size: 18px;
+  color: yellow;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+}
+
+#counter-display > p > small {
+  font-size: 12px;
+  margin-left: 10rem;
+}
+
+#wordDisplay {
+  height: 4rem;
+  background: lightgray;
+  margin: 2rem;
+  border-radius: 4%;
+  display: flex !important;
+}
+
+.letter-item {
+  font-size: 18px;
+  /* letter-spacing: 1rem; */
+  border: 1px solid gray;
+  margin: auto;
+  /* padding: 0.5rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-like {
+  display: inline-block;
+  /* padding: 10px; */
+  font-size: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.fake-bullet {
+  display: inline-block;
+  /* margin-left: 5px; */
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  /* border-radius: 50%; */
+}
